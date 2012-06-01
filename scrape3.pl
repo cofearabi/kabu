@@ -68,7 +68,7 @@ sub prev50Day{
 }
 
     # 新しいExcelワークブックの作成
-    my $workbook = Spreadsheet::WriteExcel->new("c:\\temp.xls");
+    my $workbook = Spreadsheet::WriteExcel->new("temp.xls");
 
 
 # my @list = split(/\//, $thisDay );
